@@ -17,7 +17,7 @@ COPY . .
 ENV CGO_ENABLED=0
 RUN make build
 
-FROM alpine:3.17
+FROM alpine:3
 
 ARG USER_ID=1000
 ARG GROUP_ID=1001
